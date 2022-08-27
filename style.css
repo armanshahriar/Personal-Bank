@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    background-image: url("bg-1.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.login-div {
+    background-color: rgba(226, 226, 226, 0.698);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    left: 300px;
+
+}
+
+.login-div input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-btn {
+
+    background-color: #669c15;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 20px 10px 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 200px;
+}
+
+.login-btn:hover {
+    background-color: yellowgreen;
+}
+
+.transection-area {
+    background-image: url("bg-2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+
+.blance {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.blance div {
+    height: 150px;
+    width: 200px;
+    background-color: rgba(76, 121, 122, 0.712);
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.transection-input {
+    height: 200px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.transection-input div {
+    width: 350px;
+    height: 150px;
+    background-color: rgba(77, 77, 77, 0.705);
+    border-radius: 10px;
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+.transection-input div input {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 20px 10px 20px;
+}
+
+.transection-input div button {
+    background-color: greenyellow;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 20px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.transection-input div button:hover {
+    color: white;
+    background-color: rgb(100, 141, 38);
+}

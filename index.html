@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main" id="login-area">
+        <div class="login-area">
+            <div class="login-div">
+                <!-- <form class="login-form" action=""> -->
+                <input type="email" name="" id="" placeholder="Type your Email" required>
+                <input type="password" name="" id="" placeholder="Type your Password" required>
+                <button type="submit" class="login-btn" onclick="login()">Submit </button>
+                <!-- </form> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="transection-area" id="transection-area">
+        <div class="blance">
+            <div>
+                <h2> Deposit</h2>
+                <h2>৳ <span id="current-deposit"> 00 </span> </h2>
+            </div>
+            <div>
+                <h2> Withdraw</h2>
+                <h2>৳ <span id="current-withdraw"> 00 </span> </h2>
+            </div>
+            <div>
+
+
+                <h4> Total Balance </h4>
+                <h2>৳ <span id="total-balance"> 00 </span> </h2>
+            </div>
+        </div>
+
+        <div class="transection-input">
+            <div>
+                <input type="number" placeholder="Deposit Amount" id="depodit-input">
+                <button class="submit-btn" onclick="handleDeposit()"> Deposit </button>
+            </div>
+            <div>
+
+                <input type="text" placeholder="Withdraw Amount" id="Withdraw">
+                <button class="submit-btn" onclick="handleWithdraw()"> Withdraw </button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
